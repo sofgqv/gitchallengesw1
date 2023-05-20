@@ -6,6 +6,7 @@ def main():
     gymexplorer()
     quedijo()
     signtalk()
+    print_nombre("Carlos")
     # <== do not modify
 
 def aurora():
@@ -26,5 +27,7 @@ def quedijo():
 def signtalk():
     print("Este es el equipo Sign Talk")
 
+def print_nombre(nombre):
+    print("Mi nombre es {name}".format(name = nombre))
 
 main()
