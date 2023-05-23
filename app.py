@@ -7,9 +7,11 @@ def main():
     quedijo()
     signtalk()
     # <== do not modify
+    print_nombre("Enzo")
 
 def aurora():
     print("Este es el equipo Aurora")
+    print_nombre("Enzo")
 
 def triplea():
     print("Este es el equipo TripleA")
@@ -26,5 +28,7 @@ def quedijo():
 def signtalk():
     print("Este es el equipo Sign Talk")
 
+def print_nombre(nombre):
+    print("Mi nombre es {name}".format(name = nombre))
 
 main()
