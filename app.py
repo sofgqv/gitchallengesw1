@@ -15,6 +15,7 @@ def aurora():
     print_nombre("Sofía")
     print_nombre("Paolo")
     print_nombre("Valeria")
+    print_nombre("Enzo")
 
 def triplea():
     print("Este es el equipo TripleA  ")
