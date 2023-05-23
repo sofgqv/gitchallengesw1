@@ -11,6 +11,7 @@ def main():
 
 def aurora():
     print("Este es el equipo Aurora")
+    print_nombre("Valentin")
 
 def triplea():
     print("Este es el equipo TripleA")
