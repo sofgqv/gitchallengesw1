@@ -11,6 +11,7 @@ def main():
 
 def aurora():
     print("Este es el equipo Aurora")
+    print_nombre("Valentin")
     print_nombre("Sofía")
 
 def triplea():
