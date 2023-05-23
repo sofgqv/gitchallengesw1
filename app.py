@@ -7,10 +7,11 @@ def main():
     quedijo()
     signtalk()
     # <== do not modify
-    print_nombre("Enzo")
+    print_nombre("Carlos")
 
 def aurora():
     print("Este es el equipo Aurora")
+    print_nombre("Enzo")
 
 def triplea():
     print("Este es el equipo TripleA")
